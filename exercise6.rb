@@ -10,7 +10,13 @@ grocery_list << "rice"
 grocery_list.each do |list|
   puts list
   sleep(0.1)
-
 end
 
+if grocery_list.include?("Bananas")
+  puts "You don't need to pick up bananas today."
+else
+  puts "You need to pick up bananas today."
+end
+
+sleep(1)
 puts "Total number of items: #{grocery_list.count}"
