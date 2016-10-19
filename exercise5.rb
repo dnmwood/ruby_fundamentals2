@@ -5,7 +5,6 @@
 # temp.to_i
 #   celcius = (temp - 32)*5%9
 # puts "#{celcius}*"
-# I learned that you can string
 
 puts "enter farhenheit:"
 farh = gets.chomp.to_f
